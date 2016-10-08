@@ -1,0 +1,18 @@
+---
+name: 'taitava-defaults'
+---
+
+URLSegmentFilter:
+  default_allow_multibyte: true #Allow å ä ö (etc) charatcers in URLs
+
+SiteTree:
+  extensions:
+    - TaitavaSiteTreeExtension
+
+SiteConfig:
+  extensions:
+    - TaitavaSiteConfigExtension
+
+LeftAndMain:
+  extra_requirements_javascript:
+    - mysite/js/entwine.js      #Set default editor mode to 'edit', so no preview panel appears on the right side by default.

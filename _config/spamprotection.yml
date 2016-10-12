@@ -1,0 +1,11 @@
+---
+name: spamprotection
+---
+
+#Note: the taitavadefaults module does not include userforms, spamprotection or mathspamprotection modules in it's requirements in composer.json, so the settings in this file will just do nothing unless the spamprotection module is installed in your project.
+
+FormSpamProtectionExtension:
+  default_spam_protector: MathSpamProtector
+
+MathSpamProtectorField:
+  allow_numeric_answer: false

@@ -15,7 +15,7 @@ SiteConfig:
 
 LeftAndMain:
   extra_requirements_javascript:
-    - mysite/js/entwine.js      #Set default editor mode to 'edit', so no preview panel appears on the right side by default.
+    - taitava-defaults/js/entwine.js      #Set default editor mode to 'edit', so no preview panel appears on the right side by default.
 
 CloakEmail:
   convert_page_content: true

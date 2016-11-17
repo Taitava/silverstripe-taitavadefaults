@@ -21,3 +21,10 @@ CloakEmail:
   convert_page_content: true
   template_insert_links: true
   page_insert_links: true
+
+Date:
+  nice_format: 'j.n.Y'
+Time:
+  nice_format: 'H:i'
+SS_Datetime:
+  nice_format: "j.n.Y H:i"

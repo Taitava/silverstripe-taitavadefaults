@@ -21,8 +21,7 @@ RewriteCond %{HTTPS} !=on
 RewriteRule ^(security|admin|dev)\/ - [NC,L]
 ### TAITAVA'S DEFAULT SILVERSTRIPE HTACCESS RULES END ###
 
-RewriteCond %{HTTP_HOST} ^turunvalkonauha\.taitavasti\.fi$ [NC]
-RewriteRule ^.*$ http://www.turunvalkonauha.fi/$0 [L]
+
 
 ### SILVERSTRIPE START ###
 # Deny access to templates (but allow from localhost)

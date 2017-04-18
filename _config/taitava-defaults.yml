@@ -21,6 +21,7 @@ CloakEmail:
   convert_page_content: true
   template_insert_links: true
   page_insert_links: true
+  purge_mailto_links: true
 
 Date:
   nice_format: 'j.n.Y'

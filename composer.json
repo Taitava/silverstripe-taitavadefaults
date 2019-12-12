@@ -1,11 +1,10 @@
 {
   "name": "taitava/silverstripe-taitavadefaults",
   "description": "Contains just some common settings, tweaks and requirements for other modules that I use on all of my SilverStripe projects. Perhaps not useful for others, but can be used freely by anybody.",
-  "type": "silverstripe-module",
+  "type": "silverstripe-vendormodule",
   "license": "MIT",
   "require": {
-    "silverstripe/framework": "~3.1",
-    "silverstripe/cms": "~3.1",
+    "silverstripe/framework": "~4.0",
     "taitava/silverstripe-cloakemail": "*"
   },
   "keywords": ["silverstripe"],
@@ -16,6 +15,9 @@
     "role": "Developer"
   }],
   "extra": {
+    "expose": [
+        "js"
+    ],
     "installer-name": "taitavadefaults"
   }
 }

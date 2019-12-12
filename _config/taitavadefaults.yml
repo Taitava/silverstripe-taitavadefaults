@@ -1,5 +1,5 @@
 ---
-name: 'taitava-defaults'
+name: 'taitavadefaults'
 ---
 
 URLSegmentFilter:
@@ -15,7 +15,7 @@ SiteConfig:
 
 LeftAndMain:
   extra_requirements_javascript:
-    - taitava-defaults/js/entwine.js      #Set default editor mode to 'edit', so no preview panel appears on the right side by default.
+    - taitavadefaults/js/entwine.js      #Set default editor mode to 'edit', so no preview panel appears on the right side by default.
 
 CloakEmail:
   convert_page_content: true

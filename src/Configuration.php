@@ -1,8 +1,10 @@
 <?php
 
+namespace Taitava\Defaults;
+
 if (!class_exists('SS_Object')) class_alias(Object::class, 'SS_Object'); // Backwards compatibility for SilverStripe < 3.7
 
-class TaitavaDefaults extends SS_Object
+class Configuration extends SS_Object
 {
 	/**
 	 * @conf bool

@@ -2,30 +2,30 @@
 name: 'taitavadefaults'
 ---
 
-URLSegmentFilter:
+SilverStripe\View\Parsers\URLSegmentFilter:
   default_allow_multibyte: true #Allow å ä ö (etc) charatcers in URLs
 
-SiteTree:
+SilverStripe\CMS\Model\SiteTree:
   extensions:
-    - TaitavaSiteTreeExtension
+    - Taitava\Defaults\SiteTreeExtension
 
-SiteConfig:
+SilverStripe\SiteConfig\SiteConfig:
   extensions:
-    - TaitavaSiteConfigExtension
+    - Taitava\Defaults\SiteConfigExtension
 
-LeftAndMain:
+SilverStripe\Admin\LeftAndMain:
   extra_requirements_javascript:
     - taitavadefaults/js/entwine.js      #Set default editor mode to 'edit', so no preview panel appears on the right side by default.
 
-CloakEmail:
+Taitava\CloakEmail\CloakEmail:
   convert_page_content: true
   template_insert_links: true
   page_insert_links: true
   purge_mailto_links: true
 
-Date:
+SilverStripe\ORM\FieldType\DBDate:
   nice_format: 'j.n.Y'
-Time:
+SilverStripe\ORM\FieldType\DBTime:
   nice_format: 'H:i'
-SS_Datetime:
+SilverStripe\ORM\FieldType\DBDatetime:
   nice_format: "j.n.Y H:i"

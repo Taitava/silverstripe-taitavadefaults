@@ -2,5 +2,5 @@ fi:
   MathSpamProtectionField:
     SPAMQUESTION: 'Roskapostisuoja: %s Kirjoita vastaus sanana.'
   Security:
-    PASSWORDSENTHEADER: '' # Use an empty heading to bring focus to the actual text instead of the heading.
+    PASSWORDSENTHEADER: ' ' # Use an empty heading to bring focus to the actual text instead of the heading.
     PASSWORDSENTTEXT: 'Mikäli sähköpostiosoite {email} on rekisteröity järjestelmään, osoitteeseen on nyt lähetetty salasananpalautuslinkki. Tietoturvasyistä tässä ei voida ilmoittaa, onko kyseinen sähköpostiosoite rekisteröity järjestelmään vai ei.'

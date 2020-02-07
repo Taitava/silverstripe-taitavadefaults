@@ -1,5 +1,5 @@
 fi:
-  MathSpamProtectorField:
+  MathSpamProtectionField:
     SPAMQUESTION: 'Roskapostisuoja: %s Kirjoita vastaus sanana.'
   Security:
     PASSWORDSENTTEXT: 'Mikäli sähköpostiosoite {email} on rekisteröity järjestelmään, osoitteeseen on nyt lähetetty salasananpalautuslinkki. Tietoturvasyistä tässä ei voida ilmoittaa, onko kyseinen sähköpostiosoite rekisteröity järjestelmään vai ei.'

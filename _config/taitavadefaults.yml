@@ -9,10 +9,6 @@ SilverStripe\CMS\Model\SiteTree:
   extensions:
     - Taitava\Defaults\SiteTreeExtension
 
-SilverStripe\SiteConfig\SiteConfig:
-  extensions:
-    - Taitava\Defaults\SiteConfigExtension
-
 Taitava\CloakEmail\CloakEmail:
   convert_page_content: true
   template_insert_links: true

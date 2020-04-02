@@ -1,3 +1,6 @@
 fi:
   SilverStripe\MathSpamProtection\MathSpamProtectorField:
     SPAMQUESTION: 'Roskapostisuoja: %s Kirjoita vastaus sanana.'
+  SilverStripe\Security\Security:
+    PASSWORDSENTHEADER: ' ' # Use an empty heading to bring focus to the actual text instead of the heading.
+    PASSWORDSENTTEXT: 'Mikäli sähköpostiosoite {email} on rekisteröity järjestelmään, osoitteeseen on nyt lähetetty salasananpalautuslinkki. Tietoturvasyistä tässä ei voida ilmoittaa, onko kyseinen sähköpostiosoite rekisteröity järjestelmään vai ei.'

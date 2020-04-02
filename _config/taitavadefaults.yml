@@ -13,10 +13,6 @@ SilverStripe\SiteConfig\SiteConfig:
   extensions:
     - Taitava\Defaults\SiteConfigExtension
 
-SilverStripe\Admin\LeftAndMain:
-  extra_requirements_javascript:
-    - taitavadefaults/js/entwine.js      #Set default editor mode to 'edit', so no preview panel appears on the right side by default.
-
 Taitava\CloakEmail\CloakEmail:
   convert_page_content: true
   template_insert_links: true

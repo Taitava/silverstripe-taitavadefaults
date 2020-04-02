@@ -2,10 +2,12 @@
 
 namespace Taitava\Defaults;
 
-if (!class_exists('SS_Object')) class_alias(Object::class, 'SS_Object'); // Backwards compatibility for SilverStripe < 3.7
+use SilverStripe\Core\Config\Configurable;
 
-class Configuration extends SS_Object
+class Configuration
 {
+	use Configurable;
+	
 	/**
 	 * @conf bool
 	 */

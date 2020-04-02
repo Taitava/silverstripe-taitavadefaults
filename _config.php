@@ -14,3 +14,6 @@ if (Configuration::getFontSizeConfig())
 		'font_size_style_values' => "8px,10px,12px,13px,14px,16px,18px,20px,24px",
 	));
 }
+
+// Make CMS content editor to adapt its height to its content.
+HTMLEditorConfig::get('cms')->enablePlugins('autoresize');
